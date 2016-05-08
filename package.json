@@ -1,6 +1,6 @@
 {
   "name": "ember-component-helpers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "component keyword related helpers for Ember",
   "directories": {
     "doc": "doc",
