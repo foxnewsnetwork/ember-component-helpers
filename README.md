@@ -1,4 +1,5 @@
 # Ember-component-helpers
+[![Build Status](https://travis-ci.org/foxnewsnetwork/ember-component-helpers.svg?branch=master)](https://travis-ci.org/foxnewsnetwork/ember-component-helpers)
 
 Some handlebar helpers for working with Ember components
 
