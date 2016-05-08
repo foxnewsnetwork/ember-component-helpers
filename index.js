@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-apply-component'
+  name: 'ember-component-helpers'
 };
