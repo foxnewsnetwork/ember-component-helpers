@@ -24,8 +24,11 @@ Now with `component-apply` (and the `append` helper from [ember-composable-helpe
   {{post.content}}
 {{/component-apply}}
 ```
+This is particularly useful while we wait for https://github.com/wycats/handlebars.js/pull/1149 to come out
 
+* limitations: requires Ember 2.0 and above (sorry)
 ** limitations: the array you pass in shouldn't be dynamic
+
 
 #### `component-wrap`
 Wraps a vanilla HTML tag into an element, useful for components which demand a parentView such as tooltips from [ember-tooltips](https://www.npmjs.com/package/ember-tooltips)
