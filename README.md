@@ -4,7 +4,7 @@ Some handlebar helpers for working with Ember components
 
 ## Available Helpers
 * [`component-apply`](#component-apply)
-* [`componentize`](#componentize)
+* [`component-wrap`](#component-wrap)
 
 ## Usage Examples
 
