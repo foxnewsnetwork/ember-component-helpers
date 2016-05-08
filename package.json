@@ -1,7 +1,7 @@
 {
   "name": "ember-component-helpers",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "component keyword related helpers for Ember",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -40,7 +40,13 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "helpers",
+    "keyword",
+    "apply",
+    "spread",
+    "splat",
+    "rest"
   ],
   "dependencies": {
     "ember-cli-htmlbars": "^1.0.3",

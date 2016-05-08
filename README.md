@@ -19,21 +19,23 @@ Consider the following example of calling Ember's `link-to` component:
 ```
 Now with `component-apply` (and the `append` helper from [ember-composable-helpers](https://www.npmjs.com/package/ember-composable-helpers))
 ```handlebars
-{{#component-apply "link-to" (append "dashboard.post.index" post)}}
+{{#component-apply "link-to" (array "dashboard.post.index" post)}}
   {{post.content}}
 {{/component-apply}}
 ```
 
-#### `componentize`
+** limitations: the array you pass in shouldn't be dynamic
+
+#### `component-wrap`
 Wraps a vanilla HTML tag into an element, useful for components which demand a parentView such as tooltips from [ember-tooltips](https://www.npmjs.com/package/ember-tooltips)
 
 ```handlebars
-{{#componentize "li" class="mdl-list__item"}}
+{{#component-wrap "li" class="mdl-list__item"}}
   {{#tooltip-on-parent}}
     You don't have to use data-tooltip-content + separate js call anymore!
   {{/tooltip-on-parent}}
   Brian Cranston
-{{/componentize}}
+{{/component-wrap}}
 ```
 
 ## Installation

@@ -1,0 +1,1 @@
+export { default } from 'ember-component-helpers/components/component-wrap';
