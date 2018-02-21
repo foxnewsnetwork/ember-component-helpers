@@ -1,5 +1,6 @@
-import Ember from 'ember';
+import { A } from '@ember/array';
+import Controller from '@ember/controller';
 
-export default Ember.Controller.extend({
-  ctrlArray: Ember.A(["posts.post.view", 622, { class: "ctrl-array" }])
+export default Controller.extend({
+  ctrlArray: A(["posts.post.view", 622, { class: "ctrl-array" }])
 });

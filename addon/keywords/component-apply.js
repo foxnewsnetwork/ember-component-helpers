@@ -1,7 +1,12 @@
-import Ember from 'ember';
-import { keyword, isEnabled, closureComponent, EmptyObject, assign } from '../-private/component-imports';
-
-const {typeOf, A} = Ember;
+import { typeOf } from '@ember/utils';
+import { A } from '@ember/array';
+import {
+  keyword,
+  isEnabled,
+  closureComponent,
+  EmptyObject,
+  assign
+} from '../-private/component-imports';
 
 function normalizeParams([nameChild, argsChild]) {
   let newParams = A([nameChild]);

@@ -1,9 +1,8 @@
-import Ember from 'ember';
+import { A } from '@ember/array';
 import { moduleForComponent, test } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
-import {initialize} from 'ember-component-helpers/initializers/component-keyword-registration';
+import { initialize } from 'ember-component-helpers/initializers/component-keyword-registration';
 
-const {A} = Ember;
 moduleForComponent('component-apply', 'Integration | Component | component apply', {
   integration: true,
   setup() {
